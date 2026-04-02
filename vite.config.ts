@@ -6,5 +6,14 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     sourcemap: false,
+    chunkSizeWarningLimit: 1000,
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          framework: ['react', 'react-dom', '@toss/tds-mobile', '@toss/tds-mobile-ait', '@emotion/react'],
+          state: ['zustand'],
+        },
+      },
+    },
   },
 })

@@ -1,0 +1,30 @@
+{
+  "appName": "주간 플래너",
+  "appNameEn": "Weekly Planner",
+  "developer": "oh-my-zhs (Zero Human Studio)",
+  "category": "생산성",
+  "categoryEn": "Productivity",
+  "shortDescription": "심플하고 직관적인 주간 할 일 관리 미니앱",
+  "shortDescriptionEn": "Simple and intuitive weekly to-do management mini-app",
+  "fullDescription": "주간 플래너는 한 주의 할 일을 깔끔하게 관리할 수 있는 미니앱입니다.\n\n주요 기능:\n- 주간 캘린더 뷰로 요일별 할 일 관리\n- 4가지 카테고리 태그 (업무/개인/건강/학습)\n- 주간 완료율 통계 및 진행률 바\n- 스와이프로 빠른 삭제\n- 다크모드 지원\n- 오프라인 저장 지원\n\nToss Design System 기반의 깔끔한 UI로 빠르고 편리하게 일정을 관리하세요.",
+  "fullDescriptionEn": "Weekly Planner is a mini-app for cleanly managing your weekly to-dos.\n\nKey Features:\n- Weekly calendar view with day-by-day task management\n- 4 category tags (Work/Personal/Health/Study)\n- Weekly completion stats with progress bar\n- Swipe to quickly delete tasks\n- Dark mode support\n- Offline storage support\n\nManage your schedule quickly and conveniently with a clean UI based on the Toss Design System.",
+  "keywords": ["플래너", "할일", "투두", "주간", "일정관리", "생산성", "todo", "planner"],
+  "supportEmail": "contact@ohmyzhs.com",
+  "privacyPolicyUrl": "https://ohmyzhs.com/privacy",
+  "version": "1.0.0",
+  "minAge": "전체",
+  "permissions": [],
+  "screenshots": {
+    "required": [
+      "main-weekly-view.png",
+      "todo-list-with-categories.png",
+      "weekly-stats.png",
+      "dark-mode.png"
+    ],
+    "notes": "Screenshots needed: 1) Main weekly calendar view, 2) Todo list with category tags, 3) Weekly completion stats, 4) Dark mode view. Recommended size: 1080x1920px (9:16)."
+  },
+  "icon": {
+    "required": "app-icon.png",
+    "notes": "512x512px, calendar/checkbox motif with Toss blue (#3182F6) accent. Rounded corners per AIT guidelines."
+  }
+}
