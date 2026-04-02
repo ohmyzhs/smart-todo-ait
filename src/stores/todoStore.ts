@@ -1,7 +1,20 @@
 import { create } from 'zustand'
-import { persist } from 'zustand/middleware'
+import { persist, createJSONStorage } from 'zustand/middleware'
+import { Storage } from '@apps-in-toss/web-framework'
 import type { Todo, Category } from '../types/todo'
 import { getWeekKey } from '../utils/date'
+
+const aitStorage = createJSONStorage(() => ({
+  getItem: async (name: string) => {
+    return (await Storage.getItem(name)) ?? null
+  },
+  setItem: async (name: string, value: string) => {
+    await Storage.setItem(name, value)
+  },
+  removeItem: async (name: string) => {
+    await Storage.removeItem(name)
+  },
+}))
 
 interface TodoState {
   todos: Todo[]
@@ -77,6 +90,6 @@ export const useTodoStore = create<TodoState>()(
         return stats
       },
     }),
-    { name: 'smart-todo-storage' }
+    { name: 'smart-todo-storage', storage: aitStorage }
   )
 )
