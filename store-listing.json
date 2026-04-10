@@ -10,7 +10,7 @@
   "fullDescriptionEn": "Weekly Planner is a mini-app for cleanly managing your weekly to-dos.\n\nKey Features:\n- Weekly calendar view with day-by-day task management\n- 4 category tags (Work/Personal/Health/Study)\n- Weekly completion stats with progress bar\n- Swipe to quickly delete tasks\n- Dark mode support\n- Offline storage support\n\nManage your schedule quickly and conveniently with a clean UI based on the Toss Design System.",
   "keywords": ["플래너", "할일", "투두", "주간", "일정관리", "생산성", "todo", "planner"],
   "supportEmail": "contact@ohmyzhs.com",
-  "privacyPolicyUrl": "https://ohmyzhs.com/privacy",
+  "privacyPolicyUrl": "https://oh-my-zhs.com/privacy",
   "version": "1.0.0",
   "minAge": "전체",
   "permissions": [],

@@ -9,5 +9,10 @@ export default defineConfig({
       build: 'vite build',
     },
   },
+  brand: {
+    displayName: '주간 플래너',
+    primaryColor: '#3182F6',
+    icon: './app-icon.png',
+  },
   permissions: [],
 });
